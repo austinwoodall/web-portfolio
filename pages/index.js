@@ -128,7 +128,9 @@ export default function Home() {
                             I enjoy building delightful, enriched digital
                             experiences.
                         </h1>
-                        <h1 style={{ fontSize: 120 }}>Think. Solve. Deploy.</h1>
+                        <h1 style={{ fontSize: 120 }}>
+                            Think. Develop. Deploy.
+                        </h1>
                     </div>
                     <div style={{ width: 750 }}>
                         {/*<img*/}
