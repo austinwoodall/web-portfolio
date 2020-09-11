@@ -8,7 +8,7 @@ export default function Home() {
                 <title>Create Next App</title>
                 <link rel="icon" href="/favicon.ico" />
                 <link
-                    href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap"
+                    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
                     rel="stylesheet"
                 />
             </Head>
@@ -51,12 +51,12 @@ export default function Home() {
                             style={{
                                 display: "flex",
                                 alignItems: "center",
-                                padding: "20px 0",
+                                padding: "10px 0",
                             }}>
                             <div
                                 style={{
                                     height: 2,
-                                    width: 70,
+                                    width: 60,
                                     backgroundColor: "rgb(76, 64, 247)",
                                 }}
                             />
@@ -64,23 +64,27 @@ export default function Home() {
                             <p
                                 style={{
                                     display: "inline",
-                                    fontWeight: 700,
+                                    fontSize: 18,
+                                    fontWeight: 600,
                                     color: "rgb(76, 64, 247)",
                                 }}>
                                 Austin Woodall
                             </p>
                         </div>
-                        <h1 style={{ margin: 0, fontSize: 70 }}>
-                            Hello, my name's Austin.
-                        </h1>
-                        <div style={{ height: 20 }} />
-                        <h1 style={{ margin: 0, fontSize: 60 }}>
-                            I'm a Front-end Developer
+                        <h1
+                            style={{
+                                margin: 0,
+                                fontSize: 70,
+                                fontWeight: 600,
+                                lineHeight: 1.2,
+                            }}>
+                            Hello, my name's Austin. <br /> I'm a Front-end
+                            Developer.
                         </h1>
                     </div>
                     <div>
                         <img
-                            style={{ width: 750, height: 700 }}
+                            style={{ width: 710, height: 700 }}
                             src={"/isometric-graphic.png"}
                             alt={"code server"}
                         />
@@ -128,7 +132,9 @@ export default function Home() {
                             I enjoy building delightful, enriched digital
                             experiences.
                         </h1>
-                        <h1 style={{ fontSize: 120 }}>Think. Solve. Deploy.</h1>
+                        <h1 style={{ fontSize: 120, fontWeight: 600 }}>
+                            Think. Solve. <br /> Deploy.
+                        </h1>
                     </div>
                     <div style={{ width: 750 }}>
                         {/*<img*/}
