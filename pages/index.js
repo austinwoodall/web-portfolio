@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import RotatedDiv from "../styled-components/RotatedDiv";
 
 export default function Home() {
     return (
@@ -13,20 +14,10 @@ export default function Home() {
                 />
             </Head>
 
-            <div
-                style={{
-                    width: 500,
-                    height: "100vh",
-                    position: "absolute",
-                    top: 0,
-                    right: 0,
-                    background: "#232396",
-                    zIndex: -9,
-                }}
-            />
+            <RotatedDiv />
 
             <header className={styles.main}>
-                <div style={{ padding: "20px 0" }}>
+                <div style={{ padding: "20px 0", zIndex: 10 }}>
                     <img
                         style={{ height: 60, width: 60 }}
                         src={"/austin-logo.png"}
@@ -84,8 +75,8 @@ export default function Home() {
                     </div>
                     <div>
                         <img
-                            style={{ width: 710, height: 700 }}
-                            src={"/isometric-graphic.png"}
+                            style={{ width: 610, height: 600 }}
+                            src={"/deliveries.svg"}
                             alt={"code server"}
                         />
                     </div>
@@ -132,16 +123,22 @@ export default function Home() {
                             I enjoy building delightful, enriched digital
                             experiences.
                         </h1>
-                        <h1 style={{ fontSize: 120, fontWeight: 600 }}>
-                            Think. Solve. <br /> Deploy.
+                        <h1
+                            style={{
+                                fontSize: 50,
+                                fontWeight: 600,
+                                lineHeight: 1,
+                            }}>
+                            Think. Solve. <br />
+                            Deploy.
                         </h1>
                     </div>
-                    <div style={{ width: 750 }}>
-                        {/*<img*/}
-                        {/*    style={{ width: 750, height: 700 }}*/}
-                        {/*    src={"/isometric-graphic.png"}*/}
-                        {/*    alt={"code server"}*/}
-                        {/*/>*/}
+                    <div style={{ width: 400 }}>
+                        <img
+                            style={{ width: 750, height: 700 }}
+                            src={"/progressive_app.svg"}
+                            alt={"code server"}
+                        />
                     </div>
                 </div>
             </section>
