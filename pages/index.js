@@ -14,7 +14,7 @@ export default function Home() {
                 />
             </Head>
 
-            <RotatedDiv />
+            {/*<RotatedDiv />*/}
 
             <header className={styles.main}>
                 <div style={{ padding: "20px 0", zIndex: 10 }}>
