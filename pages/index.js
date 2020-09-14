@@ -69,14 +69,14 @@ export default function Home() {
                                 fontWeight: 600,
                                 lineHeight: 1.2,
                             }}>
-                            Hello, my name's Austin. <br /> I'm a Front-end
+                            Hello, my name's Austin. <br /> I'm a Frontend
                             Developer.
                         </h1>
                     </div>
                     <div>
                         <img
                             style={{ width: 610, height: 600 }}
-                            src={"/deliveries.svg"}
+                            src={"/code_review.svg"}
                             alt={"code server"}
                         />
                     </div>
@@ -125,8 +125,8 @@ export default function Home() {
                         </h1>
                         <h1
                             style={{
-                                fontSize: 50,
-                                fontWeight: 600,
+                                fontSize: 100,
+                                fontWeight: 700,
                                 lineHeight: 1,
                             }}>
                             Think. Solve. <br />
