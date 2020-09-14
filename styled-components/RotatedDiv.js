@@ -2,15 +2,15 @@ import React from "react";
 import styled from "styled-components";
 
 const RotatedDiv = styled.div`
-    width: 700px;
+    width: 1000px;
     height: 150vh;
     position: absolute;
-    top: 10;
-    right: 0;
+    top: -300px;
+    right: -150px;
     background: #232396;
-    border-radius: 30
+    border-radius: 1000px;
     z-index: -1;
-    transform: skewY(1deg) rotate(20deg);
+    transform: skewX(-10deg) rotate(5deg);
 `;
 
 export default RotatedDiv;

@@ -4,9 +4,9 @@ import RotatedDiv from "../styled-components/RotatedDiv";
 
 export default function Home() {
     return (
-        <div className={styles.container}>
+        <div style={{ overflowX: "hidden" }} className={styles.container}>
             <Head>
-                <title>Create Next App</title>
+                <title>Austin Woodall | Software Developer</title>
                 <link rel="icon" href="/favicon.ico" />
                 <link
                     href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
